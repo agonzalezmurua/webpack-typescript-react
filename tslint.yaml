@@ -1,0 +1,37 @@
+extends: tslint:recommended
+tslint:exclude:
+- "**/node_modules/**"
+rules:
+    semicolon: false
+    quotemark:
+    - true
+    - single
+    - jsx-double
+    - avoid-template
+    ordered-imports: false
+    member-access: false
+    triple-equals: false
+    only-arrow-functions:
+    - true
+    - allow-named-functions
+    curly:
+    - true
+    - ignore-same-line
+    - as-needed
+    variable-name:
+    - false
+    - check-format
+    - allow-leading-underscore
+    - ban-keywords
+    no-console:
+    - true
+    - error
+    arrow-parens:
+    - false
+    arrow-return-shorthand: true
+    max-classes-per-file:
+    - true
+    - 5
+    max-line-length:
+    - true
+    - 140
