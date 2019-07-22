@@ -1,10 +1,13 @@
+import { hot } from 'react-hot-loader/root';
 import React from "react"
-import Greetings from "Components/Greetings";
+import Counter from "Components/Counter";
 
 const App = () => {
     return (
-        <Greetings/>
+        <div>
+            <Counter/>
+        </div>
     )
 }
 
-export default App;
+export default hot(App);

@@ -5,7 +5,7 @@
   "license": "MIT",
   "browserslist": "cover 90% in CL",
   "scripts": {
-    "start": "webpack-dev-server --mode development --progress --config webpack.config.development.ts",
+    "start": "webpack-dev-server --hot --mode development --progress --config webpack.config.development.ts",
     "build": "rimraf dist && webpack --mode production --progress  --config webpack.config.production.ts",
     "test:linter": "tslint src/*"
   },
@@ -17,6 +17,7 @@
     "core-js": "3",
     "react": "16",
     "react-dom": "16",
+    "react-hot-loader": "^4.12.8",
     "react-router-dom": "^4.3.1",
     "rimraf": "^2.6.3"
   },

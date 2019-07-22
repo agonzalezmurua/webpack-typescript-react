@@ -8,7 +8,7 @@ const Greetings: React.FunctionComponent = () => {
     }, 1000)
     return (
         <div>
-            <div>Hello world!!</div>
+            <div>Hello world!</div>
             <span>{counter}</span>
         </div>
     )
