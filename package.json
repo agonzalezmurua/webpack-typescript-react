@@ -15,8 +15,8 @@
     "classnames": "2",
     "config": "^3.0.1",
     "core-js": "3",
-    "react": "16",
-    "react-dom": "16",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-hot-loader": "^4.12.8",
     "react-router-dom": "^4.3.1",
     "rimraf": "^2.6.3"
